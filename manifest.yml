@@ -4,7 +4,7 @@ applications:
   instances: 1
   host: first-rails-app
   domain: cfapps.io
-  path: ./tmp/deploy
+  path: .
   timeout: 120
   command: bundle exec rake db:migrate && bundle exec rails s -p $PORT
   services:
