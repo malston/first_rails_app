@@ -1,3 +1,4 @@
+---
 applications:
 - name: first_rails_app
   memory: 1024M
